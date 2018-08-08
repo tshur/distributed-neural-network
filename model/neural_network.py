@@ -3,10 +3,10 @@ from math import sqrt
 from collections import deque
 from random import choice
 
-from Utils import ProgressBar, onehot, flatten_image
-from Unit import ActivatedUnit, MaxPoolingUnit
-from Activation import LinearActivation, SigmoidActivation, TanhActivation, ReLUActivation
-from Layer import Layer, INPUT_LAYER, HIDDEN_LAYER, OUTPUT_LAYER
+from utils import ProgressBar, onehot, flatten_image
+from unit import ActivatedUnit, MaxPoolingUnit
+from activation import LinearActivation, SigmoidActivation, TanhActivation, ReLUActivation
+from layer import Layer, INPUT_LAYER, HIDDEN_LAYER, OUTPUT_LAYER
 
 class FeedForwardNeuralNetwork:
     """A simple FeedForwardNeuralNetwork. Essentially, a FFNN consists of a list of connected Layers.

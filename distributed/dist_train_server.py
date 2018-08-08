@@ -3,10 +3,10 @@ import struct
 from collections import deque
 
 from mnist_data.load_mnist import load_mnist
-from dataset import Sample, load_data, divide_dataset
-from NeuralNetwork import FeedForwardNeuralNetwork
-from Utils import save_pkl, load_pkl, flatten_image, recv_all
-from settings import init
+from data.dataset import Sample, load_data, divide_dataset
+from model.neural_network import FeedForwardNeuralNetwork
+from utils import save_pkl, load_pkl, flatten_image, recv_all
+from distributed.settings import init
 
 # Initialize shared information and data
 nn, num_weights, SERVER_INFO, total_batches, data = init('server')

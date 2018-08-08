@@ -3,10 +3,10 @@ import socket
 import struct
 
 from mnist_data.load_mnist import load_mnist
-from dataset import Sample, load_data, divide_dataset
-from NeuralNetwork import FeedForwardNeuralNetwork
-from Utils import save_pkl, load_pkl, recv_all
-from settings import init
+from data.dataset import Sample, load_data, divide_dataset
+from model.neural_network import FeedForwardNeuralNetwork
+from utils import save_pkl, load_pkl, recv_all
+from distributed.settings import init
 
 # Load shared information and data
 nn, num_weights, SERVER_INFO, learning_rate, batch_size, train = init('worker')

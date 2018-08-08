@@ -1,4 +1,4 @@
-from Unit import INPUT_LAYER, HIDDEN_LAYER, OUTPUT_LAYER
+from model.unit import INPUT_LAYER, HIDDEN_LAYER, OUTPUT_LAYER
 
 class Layer:
     """A base class for defining a particular Layer in the network.

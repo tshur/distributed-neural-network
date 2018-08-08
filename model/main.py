@@ -1,7 +1,7 @@
 from mnist_data.load_mnist import load_mnist
-from dataset import Sample, load_data, divide_dataset
-from NeuralNetwork import FeedForwardNeuralNetwork
-from Utils import flatten_image
+from data.dataset import Sample, load_data, divide_dataset
+from model.neural_network import FeedForwardNeuralNetwork
+from utils import flatten_image
 
 IRIS_DATA = 'basic_data/iris-data.txt'
 

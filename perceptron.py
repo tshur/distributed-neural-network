@@ -1,7 +1,8 @@
 import numpy as np
 from itertools import count
 from math import sqrt
-from dataset import *
+
+from data.dataset import load_data, divide_dataset
 
 class UnthresholdedPerceptron:
     def __init__(self, num_features):

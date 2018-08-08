@@ -1,7 +1,7 @@
 """Shared settings and configuration for distributed nodes."""
 
-from NeuralNetwork import FeedForwardNeuralNetwork
-from Utils import load_pkl
+from model.neural_network import FeedForwardNeuralNetwork
+from utils import load_pkl
 
 IRIS_TRAIN_PKL = 'basic_data/iris-train.pkl'
 IRIS_VALID_PKL = 'basic_data/iris-valid.pkl'

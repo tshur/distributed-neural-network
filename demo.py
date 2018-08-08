@@ -4,9 +4,9 @@ import os
 import math
 from scipy import ndimage
 
-from Utils import load_pkl
-from dataset import Sample
-from NeuralNetwork import FeedForwardNeuralNetwork
+from utils import load_pkl
+from data.dataset import Sample
+from model.neural_network import FeedForwardNeuralNetwork
 
 MNIST_MODEL = 'saved_nn/nn_relu_500n_5e_64b_l3.pkl'
 
